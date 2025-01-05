@@ -8,7 +8,7 @@ export default async function Home() {
   console.log(checkins)
   return (
     <>
-    <div>hi there</div>
+    <div>hi there, you made it</div>
     <div>Number of checkins: {checkins.length}</div>
     <div>
       <PrismaButton />
